@@ -1,0 +1,87 @@
+@import './global/reset.scss';
+@import './global/global.scss';
+@import './variables/fonts';
+
+.header {
+  max-width: 1777px;
+
+  &__container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 39px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 35.5px;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    gap: 21px;
+    color: $main-color;
+    align-items: center;
+
+    & li {
+      padding: 10px;
+    }
+  }
+
+  &__logo {
+    max-width: 186px;
+  }
+
+  &__icon {
+    max-width: 171px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+}
+
+.hero {
+  max-width: 1777px;
+
+  &__container {
+    padding: 110px 0 358px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  &__title {
+    max-width: 672px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $main-color;
+    margin: 0 auto 27px;
+  }
+
+  &__text {
+    max-width: 650px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: $main-color;
+    margin: 0 auto;
+  }
+}
