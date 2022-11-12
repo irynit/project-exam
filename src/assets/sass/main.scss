@@ -83,5 +83,118 @@
     text-align: center;
     color: $main-color;
     margin: 0 auto;
+    padding-bottom: 90px;
+  }
+
+  &__button {
+    padding: 16px 62px;
+    max-width: 242px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: #2091F9;
+    border-radius: 35px;
+    align-self: center;
+    cursor: pointer;
+  }
+}
+
+.features {
+  max-width: 1777px;
+  padding: 11px 0 52px;
+
+  &__container {
+    max-width: 1777px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    padding-bottom: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+  }
+
+  &__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    max-width: 532px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    display: flex;
+    align-self: center;
+
+    margin-bottom: 90px;
+    color: #374754;
+  }
+
+  &__cart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 869px;
+    margin: 0 auto 132px;
+    gap: 52px;
+    padding-bottom: 80px;
+  }
+
+  &__cart {
+    display: flex;
+    flex-direction: column;
+    max-width: 255px;
+  }
+
+  &__cart-img {
+    width: 45px;
+    margin: 0 auto 27px;
+  }
+
+  &__cart-title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+  }
+
+  &__cart-text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+  }
+
+  &__video {
+    width: 1177px;
+    height: 640px;
+    background-image: url(/img/screen.png);
+    background-position: center;
+    border-radius: 40px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 8.14769px 63.1446px rgba(0, 0, 0, 0.15));
   }
 }
