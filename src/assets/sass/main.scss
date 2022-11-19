@@ -807,3 +807,62 @@
     }
   }
 }
+
+.contact {
+  max-width: 1777px;
+  padding: 153px 274px 52px 274px;
+
+  &__container {
+    max-width: 1228px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+  }
+
+  &__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    max-width: 532px;
+    margin-top: 27px;
+    margin-bottom: 60px;
+  }
+
+  &__row {
+    max-width: 1228px;
+    display: flex;
+    flex-direction: row;
+
+    &-form {
+      max-width: 453px;
+      display: flex;
+      flex-direction: column;
+
+      &-title {
+        font-family: 'Graphik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+      }
+    }
+  }
+}
