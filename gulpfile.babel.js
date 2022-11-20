@@ -108,8 +108,6 @@ function openLocal() {
     .pipe(open({ uri: `${localServer.url}${localServer.port}/` }))
 }
 
-setTimeout(openLocal, 2000); //Відкриває автоматов в браузері
+setTimeout(openLocal, 47000); //Відкриває автоматов в браузері
 
-exports.dev = parallel(clean, server, html, css, js, img, gulpWatch); //тут послідовність функцій які запускаются, наприклад ви можете додати щоб автоматом браузер відкривався openLocal
-
-
+exports.dev = parallel(clean, server, img, html, css, js, gulpWatch); //тут послідовність функцій які запускаются, наприклад ви можете додати щоб автоматом браузер відкривався openLocal

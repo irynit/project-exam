@@ -16,11 +16,11 @@
       <div class="container header__container">
         <nav class="header__nav">
           <ul class="header__menu">
-            <li><a class="header__menu-title" href="#home"></a>Home</li>
-            <li><a class="header__menu-title" href="#product"></a>Product</li>
-            <li><a class="header__menu-title" href="#pricing"></a>Pricing</li>
-            <li><a class="header__menu-title" href="#about"></a>About</li>
-            <li><a class="header__menu-title" href="#contact"></a>Contact</li>
+            <li><a class="header__menu-title" href="#home">Home</a></li>
+            <li><a class="header__menu-title" href="#product">Product</a></li>
+            <li><a class="header__menu-title" href="#pricing">Pricing</a></li>
+            <li><a class="header__menu-title" href="#about">About</a></li>
+            <li><a class="header__menu-title" href="#contact">Contact</a></li>
           </ul>
           <div class="header__logo">
             <img src="/img/logo.svg" alt="">
@@ -38,7 +38,9 @@
             </a>
           </div>
           <div class="header__icon-linkedin">
-            <img src="/img/linkedin.png" alt="">
+           
+            <a href=""><img src="/img/linkedin.png" alt="">
+            </a>
           </div>
         </div>
 
@@ -53,7 +55,7 @@
         <button class="hero__button">Try For Free</button>
       </div>
     </section>
-    <section class="features">
+    <section class="features" id="product">
       <div class="container features__container">
         <h2 class="features__title">Features</h2>
         <p class="features__text">Most calendars are designed for teams.
@@ -131,7 +133,7 @@
         </div>
       </div>
     </section>
-    <section class="partners">
+    <section class="partners" id="about">
       <div class="container partners__container">
         <h3 class="partners__title">Partners</h3>
         <p class="partners__text">Most calendars are designed for teams.
@@ -215,7 +217,7 @@
         <button class="testimonials__button">More Testimonials</button>
       </div>
     </section>
-    <section class="pricing">
+    <section class="pricing" id="pricing">
       <div class="container pricing__container">
         <h3 class="pricing__title">Pricing</h3>
         <p class="pricing__text">Most calendars are designed for teams.
@@ -294,9 +296,8 @@
       </div>
     </section>
 
-
-
-    <section class="contact">
+    <!-- Contact us section -->
+    <section class="contact" id="contact">
       <div class="container contact__container">
         <h3 class="contact__title">Contact Us</h3>
         <p class="contact__text">Most calendars are designed for teams.
@@ -306,14 +307,92 @@
             <h3 class="contact__row-form-title">Contact Us</h3>
             <input type="text" name="text" placeholder="Your name">
             <input type="email" name="email" id="email" placeholder="Your Email">
-            <textarea name="" id="" cols="30" rows="10">Your Message</textarea>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <button class="contact__row-form-button">Send</button>
           </form>
+          <div class="contact__row-map">
+            <div class="contact__row-map-links">
+              <div class="contact__row-map-links-location">
+                <img class="contact__row-map-links-location-img" src="/img/location.svg" alt="">
+                <p class="contact__row-map-links-location-text">6386 Spring St undefined Anchorage,
+                  Georgia 12473 United States</p>
+              </div>
+              <div class="contact__row-map-links-phone">
+                <img class="contact__row-map-links-phone-img" src="/img/phone.svg" alt="">
+                <p class="contact__row-map-links-phone-text">(843) 555-0130</p>
+              </div>
+              <div class="contact__row-map-links-mail">
+                <img class="contact__row-map-links-mail-img" src="/img/mail.svg" alt="">
+                <p class="contact__row-map-links-mail-text">willie.jennings@example.com</p>
+              </div>
+            </div>
+            <div class="contact__row-map-links-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.983497587998!2d31.292910315924694!3d51.49517031941806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd98ca39cbee6f5d!2zNTHCsDI5JzQyLjYiTiAzMcKwMTcnNDIuNCJF!5e0!3m2!1suk!2sua!4v1668958130177!5m2!1suk!2sua"
+                width="516" height="325" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact__row-map-social">
+              <div class="contact__row-map-social-twitter">
+                <a href="">
+                  <img src="/img/twitter.svg" alt="">
+                </a>
+              </div>
+              <div class="contact__row-map-social-facebook">
+                <a href="">
+                  <img src="/img/facebook.svg" alt="">
+                </a>
+              </div>
+              <div class="contact__row-map-social-linkedin">
+                
+                <a href=""><img src="/img/linkedin.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
         </div>
+
+
+
       </div>
     </section>
+    <!-- Contact us section end -->
 
-
+    <!-- Footer -->
+<footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__menu">
+     <h3 class="footer__menu-title">Pages</h3> 
+     <ul class="footer__menu-abount">
+      <li class="footer__menu-abount-text">Home</li>
+      <li class="footer__menu-abount-text">Product</li>
+      <li class="footer__menu-abount-text">Pricing</li>
+      <li class="footer__menu-abount-text">About</li>
+      <li class="footer__menu-abount-text">Contact</li>
+     </ul>
+    </div>
+    <div class="footer__menu">
+      <h3 class="footer__menu-title">Tomothy</h3>
+      <ul class="footer__menu-abount">
+        <li class="footer__menu-abount-text">Eleanor Edwards</li>
+        <li class="footer__menu-abount-text">Ted Robertson</li>
+        <li class="footer__menu-abount-text">Annette Russell</li>
+        <li class="footer__menu-abount-text">Jennie Mckinney</li>
+        <li class="footer__menu-abount-text">Gloria Richards</li>
+      </ul>
+    </div>
+    <div class="footer__menu">
+      <h3 class="footer__menu-title">Jane Black</h3>
+      <ul class="footer__menu-abount">
+        <li class="footer__menu-abount-text">Philip Jones</li>
+        <li class="footer__menu-abount-text">Product</li>
+        <li class="footer__menu-abount-text">Colleen Russell</li>
+        <li class="footer__menu-abount-text">Marvin Hawkins</li>
+        <li class="footer__menu-abount-text">Bruce Simmmons</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+    <!-- Footer end -->
 
     <!--Обовязково додавати потрібно для JS -->
     <script> var exports = {}; </script>
