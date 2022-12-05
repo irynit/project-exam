@@ -1,5 +1,6 @@
 /node_modules/*
 /dist/*
+/gulpfile.babel.js
 
 .DS_Store
 /.idea/modules.xml
