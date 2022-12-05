@@ -1,0 +1,357 @@
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 417px;
+    background-image: url(/img/mob-bg.png);
+    background-repeat: no-repeat;
+    // background-size: cover;
+    margin: 0 auto;
+  }
+
+  // Header section
+  .header {
+    max-width: 417px;
+
+    &__container {
+      max-width: 386px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__menu {
+      display: none;
+    }
+
+    &__nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 150px;
+
+      &-ham {
+        display: block;
+        width: 27px;
+        height: 16px;
+        color: #fff;
+        background-image: url('/img/ham.png');
+        align-self: center;
+      }
+    }
+
+    &__icon {
+      display: none;
+    }
+  }
+
+  // Header section end
+
+  // Hero section
+  .hero {
+    max-width: 417px;
+
+    &__container {
+      min-width: 333px;
+      display: flex;
+      flex-direction: column;
+      padding: 40px 42px 248px;
+    }
+
+    &__title {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 55px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #FFFFFF;
+    }
+
+    &__text {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #FFFFFF;
+    }
+  }
+
+  // Hero section end
+
+  // Features section
+  .features {
+    max-width: 417px;
+    padding: 91px 16px 98px;
+
+    &__container {
+      max-width: 417px;
+    }
+
+    &__video {
+      display: none;
+
+      &-mob {
+        display: block;
+        background-image: url('/img/video-mob.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 215px;
+        margin-bottom: 82px;
+      }
+    }
+
+    &__cart-container {
+      max-width: 255px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+  }
+
+  // Features section end
+
+  // Organize section
+  .organize {
+    max-width: 380px;
+    padding: 90px 20px 86px;
+    margin: 0 auto;
+
+    &__container {
+      max-width: 378px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+
+    &__frame {
+      max-width: 335px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto 74px;
+
+      &-title,
+      &-text {
+        text-align: center;
+      }
+    }
+  }
+
+  // Organize section end
+
+  // prototype section
+  .prototype {
+    max-width: 417px;
+    margin: 0 auto;
+
+    &__container {
+      max-width: 417px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    &__img {
+      display: none;
+    }
+
+    &__right {
+      max-width: 417px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        display: none;
+      }
+
+      &-text-mob {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #374754;
+        display: block;
+        margin-bottom: 70px;
+      }
+
+      &-title-mob {
+        display: block;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin-bottom: 27px;
+        margin-top: 17px;
+      }
+
+      &-img-mob {
+        max-width: 100%;
+        display: block;
+        margin-bottom: 89px;
+      }
+
+      &-text-sub {
+        margin-top: 10px;
+
+      }
+
+      &-subscribe {
+        display: flex;
+        flex-direction: column;
+      }
+
+      &-subscribe button {
+        max-width: 353px;
+
+      }
+    }
+  }
+
+  // prototype section end
+
+  // partners section
+  .partners {
+    max-width: 417px;
+    padding-top: 80px;
+
+    &__container {
+      max-width: 417px;
+    }
+
+    &__items-container {
+      display: none;
+    }
+
+    &__items-container-mob {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+  }
+
+  //partners section end
+
+  // testimonials section
+  .testimonials {
+    max-width: 417px;
+    padding: 100px 57px;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__text {
+      max-width: 280px
+    }
+  }
+
+  // testimonials section end
+
+  // Pricing section
+  .pricing {
+    max-width: 417px;
+    padding: 121px 41px;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__items {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  // Pricing section end
+
+  // contact section
+  .contact {
+    max-width: 417px;
+    padding: 150px 30px 100px;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-map {
+        max-width: 350px;
+
+        &-links {
+          flex-direction: column;
+          row-gap: 30px;
+
+          &-location-text::before {
+            top: 6px;
+            background: url('/img/location.svg') no-repeat;
+          }
+
+          &-phone-text::before {
+            top: -4px;
+            background: url('/img/phone.svg') no-repeat;
+          }
+
+          &-mail-text::before {
+            top: 3px;
+            background: url('/img/mail.svg') no-repeat;
+          }
+
+          &-phone-text {
+            white-space: nowrap;
+          }
+
+          &>div {
+            flex-direction: row;
+            position: relative;
+
+            & img {
+              display: none;
+            }
+
+            & p {
+              text-align: left;
+              margin-left: 50px;
+
+              &::before {
+                content: '';
+                position: absolute;
+                width: 27px;
+                height: 34px;
+                left: 0;
+              }
+            }
+          }
+
+          &-map {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  // contact section end
+}
