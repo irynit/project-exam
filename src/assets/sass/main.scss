@@ -286,9 +286,11 @@
   padding: 52px 0;
 
   &__container {
+    max-width: 1440px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 auto;
   }
 
   &__img {
