@@ -8,6 +8,8 @@
 // Fonts
 @import './variables/_fonts.scss';
 
+@import './global/mobile.scss'
+
 .header {
   max-width: 1777px;
 
