@@ -1,10 +1,9 @@
 @media (max-width: 768px) {
   .wrapper {
     max-width: 417px;
-    background-image: url(/img/mob-bg.png);
-    background-repeat: no-repeat;
-    // background-size: cover;
-    margin: 0 auto;
+    // background-image: url(/img/mob-bg.png);
+    // background-repeat: no-repeat;
+    // margin: 0 auto;
   }
 
   // Header section
@@ -298,6 +297,10 @@
       &-map {
         max-width: 350px;
 
+        &-social {
+          margin: 0 auto;
+        }
+
         &-links {
           flex-direction: column;
           row-gap: 30px;
@@ -354,4 +357,34 @@
 
 
   // contact section end
+
+  // footer section
+  .footer {
+    max-width: 417px;
+    padding: 107px 67px;
+
+    &__container {
+      max-width: 264px;
+      width: 264px;
+    }
+
+    &__menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-contact-row {
+        flex-direction: column;
+        gap: 73px;
+        margin-bottom: 76px;
+      }
+
+      &-contact ul>h3,
+      li {
+        align-self: center;
+      }
+    }
+  }
+
+  // footer sectin end
 }
