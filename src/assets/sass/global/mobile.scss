@@ -224,7 +224,7 @@
   // partners section
   .partners {
     max-width: 417px;
-    padding-top: 80px;
+    padding: 80px 10px 0;
 
     &__container {
       max-width: 417px;
@@ -353,8 +353,6 @@
       }
     }
   }
-
-
 
   // contact section end
 
