@@ -283,7 +283,7 @@
 .prototype {
   max-width: 1777px;
   margin: 0 auto;
-  padding: 52px 0;
+  padding: 52px 30px;
 
   &__container {
     max-width: 1440px;
@@ -385,7 +385,7 @@
 }
 
 .partners {
-  min-width: 1777px;
+  max-width: 1777px;
   margin: 0 auto;
   padding: 130px 0 80px;
 
@@ -977,7 +977,7 @@
         margin-bottom: 60px;
 
         &-location {
-          min-width: 313px;
+          max-width: 313px;
           display: flex;
           flex-direction: column;
 
