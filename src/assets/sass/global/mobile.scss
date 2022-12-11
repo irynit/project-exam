@@ -83,6 +83,10 @@
             content: '';
             width: 27px;
             height: 27px;
+
+            &:checked {
+              opacity: 0;
+            }
           }
         }
 
